@@ -71,7 +71,7 @@ def sort(ary) #What we call upon
   rec_sort(ary, []) # calls second method upon original array and an empty array
 end
 
-def rec_sort unsorted, sorted #original array => unsorted & new array => sorted
+def rec_sort(unsorted, sorted) #original array => unsorted & new array => sorted
   if unsorted.length <= 0 #easy if unsorted array is empty => job is done
     return sorted #So if we puts this it will give us the sorted array
   end
